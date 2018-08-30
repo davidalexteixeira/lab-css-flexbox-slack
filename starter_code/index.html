@@ -9,60 +9,89 @@
   <title>Where work happens | Slack</title>
   <link rel="stylesheet" href="./stylesheets/style.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:700" rel="stylesheet">
 </head>
 
 <body>
-    <nav class = "main-scroll">
-          <img class="main-logo" src="./images/slack-logo.png" alt="slack_logo">
-        <span class="burger">&#9776;</span>
-          <div>
-              <ul class="main-nav"> 
-                <li>Why Slack?</li>
-                <li>Pricing</li>
-                <li>About Us</li>
-                <li>Your Workspaces</li>
-              </ul>
-          </div>
-      </nav>
+  <nav class = "navigation-wrap">
+    <img class="main-logo" src="./images/slack-logo.png" alt="slack_logo">
+    <span class="burger">&#9776;</span>
+    <div>
+      <ul class="main-nav"> 
+        <li>Why Slack?</li>
+        <li>Pricing</li>
+        <li>About Us</li>
+        <li>Your Workspaces</li>
+      </ul>
+    </div>
+  </nav>
   <header class="main-header">
     <div>
-      <div class="work-happeningYa">
+      <div class="headline">
         <h1>Where Work Happens</h1>
-        <p>When your team needs to kick off a  
+        <p class="headline-info">When your team needs to kick off a  
         project, hire a new employee, deploy some
         code, review a sales contract, finalize next 
         year's budget, measure an A/B test, plan
         your next office opening, and more, Slack 
         has you covered.</p>
-        <p class="email-input">Email address</p>
-        <button class="subscribe-button" type="button" name="button">GET STARTED</button>
+        <input type="text" value="Email address"/>
+        <button type="button" name="button">GET STARTED</button>
         <p class="sign-in">Already using Slack? <a href="#">Sign in</a></p>
       </div>
       <div class="first-image">
-          <img class="work-happening" src="./images/home_talking.png" alt="home_work_happening">
+        <img class="work-happening" src="./images/home_talking.png" alt="home_work_happening">
       </div> 
     </div>
   </header>
-  <main>
-    <div>
+
+  <section class="second-section">
+    <div class="second-headline">
       <h2>You´re in good company</h2>
       <p>Millions of people around the world have already made Slack the place where their work happens.</p>
-      <button>DISCOVER WHY</button>
-      <div>
-        <img src="./images/airbnb-logo.png" alt="">
-        <img src="./images/capital-one-logo.png" alt="">
-        <img src="./images/harvard-logo.png" alt="">
-        <img src="./images/los-angeles-times-logo.png" alt="">
-        <img src="./images/oracle-logo.png" alt="">
-        <img src="./images/ticketmaster-logo.png" alt="">
+      <div class="button-wrap">
+        <button>DISCOVER WHY</button>
+      </div>
+      <div class="second-headline-img-wrapper">
+        <picture>
+          <source srcset="./images/airbnb-logo-desktop.png" media="(min-width: 1024px)" >
+          <source srcset="./images/airbnb-logo-tablet.png" media="(min-width: 768px)" >
+          <img src="./images/airbnb-logo-mobile.png" alt="airbnb">
+        </picture>
+        <picture>
+          <source srcset="./images/capital-one-logo-desktop.png" media="(min-width: 1024px)" >
+          <source srcset="./images/capital-one-logo-tablet.png" media="(min-width: 768px)" >
+          <img src="./images/capital-one-logo-mobile.png" alt="">
+        </picture>
+        <picture>
+          <source srcset="./images/harvard-logo-desktop.png" media="(min-width: 1024px)" >
+          <source srcset="./images/harvard-logo-tablet.png" media="(min-width: 768px)" >
+          <img src="./images/harvard-logo-mobile.png" alt="">
+        </picture>
+        <picture>
+          <img src="./images/los-angeles-times-logo.png" alt="">
+        </picture>
+        <picture>
+          <source srcset="./images/oracle-logo-desktop.png" media="(min-width: 1024px)" >
+          <source srcset="./images/oracle-logo-tablet.png" media="(min-width: 768px)" >
+          <img src="./images/oracle-logo-mobile.png" alt="">
+        </picture>
+        <picture class="last-logo">
+            <source srcset="./images/ticketmaster-logo-desktop.png" media="(min-width: 1024px)" >
+            <source srcset="./images/ticketmaster-logo-tablet.png" media="(min-width: 768px)" >
+          <img src="./images/ticketmaster-logo-mobile.png" alt="">
+        </picture>
+      </div>
     </div>
-    </div>
-    <div>
-      <p>Try it for free</p>
-      <p>Already using Slack? <a href="">Sign in</a></p>
-      <button type="button" name="button">GET STARTED</button>
-    </div>
-  </main>
+  </section>
+
+  <section class="third-section">
+    <div>Try it for free</div>
+    <div>Already using Slack? <a href="">Sign in</a></div>
+    <input type="text" value="Email address"/>
+    <button type="button" name="button">GET STARTED</button>
+  </section>
+
   <footer>
     <div>
       <div>
