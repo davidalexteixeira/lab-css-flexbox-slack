@@ -117,6 +117,7 @@ ul {
     margin-left: 25px;
     margin-right: 25px;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .second-headline h2 {
@@ -170,6 +171,71 @@ ul {
     margin-bottom: 10px;
     color: #5b5e6c;
     font-family: 'Libre Baskerville', sans-serif;
+}
+
+.third-section > div:nth-child(1) {
+    font-size: 1.5em;
+    color: #323747;
+    margin-bottom: 5px;
+}
+
+.third-section > div:nth-child(2) {
+    font-size: 16px;
+    color: #323747;
+    margin-bottom: 10px;
+}
+
+.third-section button {
+    width: 100%;
+    padding: 15px;
+    border: transparent;
+    border-radius: 3px;
+    background-color: #4049aa; 
+    color: white;
+    margin-bottom: 10px;
+}
+
+.slack-logo-img {
+    height: 100px;
+    width: auto;
+}
+
+.fourth-section {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container ul:nth-child(1) {
+    margin-right: 50px;
+}
+
+.ul-heading {
+    margin-bottom: 10px!important;
+    font-size: 16px!important;
+    
+}
+
+.flex-container li {
+    margin-bottom: 5px;
+    color: #6d6f7a!important;
+    font-size: 12px;
+}
+
+.flex-container-footer {
+    display: flex;
+    justify-content: space-between;
+    color: #6d6f7a;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
 }
 
 @media (min-width: 768px) {
